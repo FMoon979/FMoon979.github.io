@@ -1,0 +1,183 @@
+@charset "utf-8";
+
+@font-face {
+  font-family: Bruzh;
+  src: url(fonts/Bruzh.otf);
+  font-style: normal;
+	font-weight: 100;}
+
+@font-face {
+  font-family: Love Monday;
+  src: url( "fonts/Love Monday.ttf");
+  font-style: normal;
+	font-weight: 100;}
+
+*{
+	background-image: url( "Imag/fondo.png");
+		}
+
+.header{
+	background-color: #A83679; 
+	height: minmax (150px, auto);
+}
+
+.header p{
+	text-align: center;
+	color: #FFFFFF;
+	font-family:  Bruzh; 
+	font-size: 70px;
+	margin: 1.6%;
+	background-color:#D772AD  ;
+}
+
+
+.espaciouno{
+	height: 100px;
+}
+
+.espaciodos{
+	height: 60px;
+}
+
+
+.headerdos{
+	background-color: #60317A;
+	height:68px;
+	
+}
+
+
+.headerdos p{
+	font-family:"Love Monday";
+	font-size:35px;
+	color:white;
+	background-color:#7C618B;
+	margin-top: 8px;
+	text-align: center;
+	
+}
+
+.texto{
+	
+	height: auto;
+	
+}
+
+
+.texto p{
+	
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	text-align: justify;
+	padding-right: 2%;
+}
+
+.nombre{
+	background-color: #58508D;
+	height: 50px;
+}
+
+.nombre p{
+	color: #D1D1D1 ;
+	font-size: 30px;
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+}
+.imag{
+	background-color: #58508D;
+	height: auto;
+}
+.imag p{
+	margin-top:14px ;
+}
+
+img{
+width: 100%;
+	padding-top: 2px;
+	text-align: center;
+	
+
+}
+
+.info{
+	padding-top: 10px;
+	height: auto;	
+}
+
+.info p{
+	padding: 25px;
+	text-align: justify;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	
+}
+.textodos{
+	
+	height: 130px;
+}
+.textodos p{
+	background-color: #58508D;
+	text-align: justify;
+}
+
+.imagen{ 
+	width: 100%;
+	height: 100%;
+ }
+
+
+
+.espaciotre{
+	height: 30px;
+}
+
+
+.footer{
+	background-color: #A83679;
+	height:130px;
+}
+.redsocial{
+	background-color: #003f5c;
+	height:120px ;
+}
+
+.redsocial p{
+	color: white;
+	font-size: 20px;
+	padding-left:70px;
+	height: auto;
+	
+} 
+
+.menu{
+	border-bottom-width:2px ;
+	border:#030303;
+	background-color:#FFBD44;
+	color: #D1D1D1;
+	position:fixed;
+	z-index: 10;
+	left:13%;
+	
+}
+.menu p {
+	color: #003f5c;
+	background-color:#FFDB9B;
+	font-size: 20px;
+text-align: center;
+	margin: 1.6%;
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+}
+
+.fa-discord{
+	color: #81B125;
+	font-size: 50px;
+	padding-top: 30px;
+}
+.fa-envelope{ 
+color: #95080B;
+	font-size: 50px;
+	padding-top: 30px;
+	}
+
+.fa-instagram{
+	color: #D97410;
+	font-size: 50px;
+	padding-top: 30px;
+}
